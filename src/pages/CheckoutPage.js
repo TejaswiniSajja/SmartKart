@@ -10,7 +10,7 @@ import api from '../services/api';
 import toast from 'react-hot-toast';
 
 export default function CheckoutPage() {
-  const { items, cartTotal, clearCart, cartCount } = useCart();
+  const { items, cartTotal, clearCart } = useCart();
   const { user } = useAuth();
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);

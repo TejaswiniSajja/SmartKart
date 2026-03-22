@@ -1,4 +1,4 @@
-import axios from 'axios';
+//import axios from 'axios';
 import { products, categories } from './data';
 
 // Simulate network delay
